@@ -78,6 +78,7 @@ c) **Forma de pagamento**: débito, crédito, PIX, dinheiro
 - verifique a forma de pagamento, se ainda são tiver pergunte ao cliente.
 - Confirme com o cliente: "Pedido registrado com sucesso! Te Manteremos informado por aqui!"
 - Após de registrar o pedido chame a tool `seletcPedido`, envie mensagem com numero do pedido retornado
+- Após de registrar o pedido chame a tool `RegistrarProdutosXPedido`, busque os dados dos  itens do pedido usando a tool Produtos e faça resistro dos dados ProdutosXPedido 
 
 
 ## 5. REGRAS DE NEGÓCIO
