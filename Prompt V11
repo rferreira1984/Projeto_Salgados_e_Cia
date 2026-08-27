@@ -114,7 +114,7 @@ c) **Forma de pagamento**: débito, crédito, PIX, dinheiro
  - Descrição | Preço | Unidade
 
 ## 10 INFORMAÇÕES DO PEDIDO
- - **Informações do pedido**: se o cliente pedir informações do sobre o pedido, use a tool `seletcPedido` e retorne as informações
+ - **Informações do pedido**: se o cliente pedir informações do sobre o pedido, use a tool `EnviarDadosPedido` e retorne as informações
  - Formato:
    * Nº: `{{$json.pedido.id}}`
    * Produtos: `{{$json.pedido.items}}`
