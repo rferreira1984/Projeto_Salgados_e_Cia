@@ -108,10 +108,9 @@ c) **Forma de pagamento**: débito, crédito, PIX, dinheiro
 ## 8. DATA ATUAL
  - Aqui está a data/hora atual: {{ $now }}.
 
-## 9 LAYOUT PARA MENSAGEM DE APRESENTAÇÃO DO CARDAPIO
- CATEGORIA( Salgados Frito, Salgados Assados, Doces Tradicionais, Doces Gourmet, Bolos por Kg, Sobremesas, Kits Festa, Festa na Caixa).
-
- - Descrição | Preço | Unidade
+## 10 SABORES POR CATEGORIAS
+ - Para apresentar os sabores de cada tipo de produto use a tool "EnviarSabores" passando o nome exato da categoria solicitada, selecione uma das categorias disponíveis
+ - categorias disponíveis:{"Salgados Assados","Doces Tradicionais","Doces Gourmet","Bolos por Kg","Sobremesas","Kits Festa","Festa na Caixa" 
 
 ## 10 INFORMAÇÕES DO PEDIDO
  - **Informações do pedido**: se o cliente pedir informações do sobre o pedido, chame a tool `EnviarDadosPedido` passando o parametro de numero do telefone {{ $json.numeroFinal }} para localizar o pedido.
